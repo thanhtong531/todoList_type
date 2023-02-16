@@ -1,0 +1,19 @@
+.taskTitle {
+  margin-bottom: 2rem;
+}
+.taskForm {
+  display: flex;
+  margin-bottom: 1rem;
+  .inputForm {
+    flex-grow: 1;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    border: 1px solid;
+  }
+  .formSubmit {
+    cursor: pointer;
+    display: inline-block;
+    width: 5rem;
+    height: 4rem;
+  }
+}
